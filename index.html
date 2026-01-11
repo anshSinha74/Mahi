@@ -562,7 +562,7 @@
             const container = document.getElementById('riddle-container');
             modal.classList.remove('hidden');
             container.innerHTML = '<span class="loading-pulse">✨ Thinking of your beauty...</span>';
-            const prompt = `Write a short, poetic, sexy and extremely romantic compliment for a beautiful girl named Mahi from her boyfriend Ansh, in hinglish. Keep it under 20 words.`;
+            const prompt = `Write a short 20 words: a romantic, blushing compliment from boyfriend Ansh to Mahi, making her melt, feel cherished, deeply loved and special.`;
             const compliment = await callGemini(prompt);
             container.innerText = compliment;
         }
@@ -895,6 +895,7 @@
 </body>
 
 </html>
+
 
 
 
